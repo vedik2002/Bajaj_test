@@ -35,6 +35,3 @@ app.get('/bfhl', (req, res) => {
     res.status(200).json(response);
 });
 
-// Start the server
-
-module.exports = app;
